@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  background: #0065c3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+.logo {
+  width: 4%;
+}
+.logo img {
+  width: 135%;
+}
+.navbar {
+  /* display: flex; */
+  width: 70%;
+}
+.navbar a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: white;
+  margin-left: 35px;
+}
+
+.button a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: white;
+  border: 2px solid white;
+  border-radius: 25px;
+  padding: 5px 20px;
+}
+
+/* banner code */
+.banner_one img {
+  width: 100%;
+}
+.banner_one_heading {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 10rem;
+  font-size: 8rem;
+  right: 10rem;
+  font-family: Cervo Neue Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  line-height: 5rem;
+}
+.banner_one_heading .naver_tasted {
+  text-align: center;
+  display: block;
+  font-size: 2.8rem;
+}
+.banner_one_heading .so_good {
+  text-align: center;
+  display: block;
+  font-size: 4.5rem;
+}
+.try_it {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 26rem;
+  font-size: 2rem;
+  right: 11rem;
+}
+.try_it img {
+  width: 5%;
+}
+div.videos {
+  display: flex;
+  column-gap: 10px;
+  position: absolute;
+  top: 30rem;
+  right: 10rem;
+}
+.banner_one .sectionone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12rem;
+  height: 8rem;
+  background-color: rgb(114, 114, 114);
+  color: white;
+  font-weight: lighter;
+  font-size: 3rem;
+}
+.banner_one .watch_now {
+  font-size: 1rem;
+  /* display: block; */
+  font-style: normal;
+}
+.banner_one .sectiontwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    height: 8rem;
+    background-color: rgb(114, 114, 114);
+    color: white;
+    font-weight: lighter;
+    font-size: 3rem;
+}
+.banner_two .watch_now {
+    font-size: 1rem;
+    display: block;
+    font-style: normal;
+  }
